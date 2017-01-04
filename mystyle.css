@@ -1,0 +1,140 @@
+html,body {
+  height:100%;
+  width:100%;
+  font-family: 'Open Sans', serif;
+  font-size: 20px;
+  color: #323032;
+}
+.main{
+  display: flex;
+  background: repeating-linear-gradient(
+  45deg,
+  #F4F4F4,
+  #F4F4F4 30px,
+  #125F8B 2px,
+  #125F8B 34px
+  );
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  margin: auto;
+  border: 3px solid #125F8B;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  height:95%;
+  width: 95%;
+  margin: 2%;
+  background: #FFFFFF;
+  justify-content: space-between;
+  align-items: center;
+}
+.left{
+  flex: 1;
+  height: 100%;
+  text-align: center;
+}
+.leftText{
+margin-top: 10%;
+padding-left: 10px;
+padding-right: 5%;
+border-right: 2px solid #323032;
+}
+.right{
+  flex: 1;
+  width: 100px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.line {
+  height: 80%;
+  border: 1px solid #323032;
+  margin-top: 5%;
+}
+.rightUpper{
+  margin-bottom: 10px;
+  width: 95%;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.rightLower{
+  flex: 2;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.photo{
+  border: 3px dotted #323032;
+  margin: 5px;
+  padding: 5px;
+  height: 180px;
+  width: 180px;
+}
+.img{
+  height: 100%;
+  width: 100%;
+}
+.button{
+  background: repeating-linear-gradient(
+  -45deg,
+  #F4F4F4,
+  #F4F4F4 10px,
+  #76323F 10px,
+  #76323F 13px
+  );
+  height: 2em;
+  border: 2px solid #76323F;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonLabel{
+  background: #F4F4F4;
+  text-align: center;
+  padding:1% 2% 1% 2%;
+  width: 80%;
+  font-size: 1em;
+}
+h6 {
+  font-size: 1em;
+  border-bottom: 3px dotted #323032;
+}
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+}
+li {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  height: 100px;
+}
+p {
+  color: #696666;
+}
+.lipic{
+    flex: 1;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 2px solid #76323F;
+    margin: auto;
+}
+a:link, a:active, a:visited{
+  color: inherit;
+  text-decoration: none;
+}
+a:hover{
+  color: #76323F;
+}
