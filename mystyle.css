@@ -1,8 +1,8 @@
 html,body {
   height:100%;
   width:100%;
-  font-family: 'Open Sans', serif;
-  font-size: 20px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 22px;
   color: #323032;
 }
 .main{
@@ -83,26 +83,17 @@ border-right: 2px solid #323032;
   width: 100%;
 }
 .button{
-  background: repeating-linear-gradient(
-  -45deg,
-  #F4F4F4,
-  #F4F4F4 10px,
-  #76323F 10px,
-  #76323F 13px
-  );
-
   height: 2em;
   border: 2px solid #76323F;
+  margin: 10px;
   flex: 1;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 .buttonLabel{
-  background: #F4F4F4;
   text-align: center;
   padding:1% 2% 1% 2%;
-  width: 80%;
   font-size: 1em;
 }
 h6 {
@@ -122,8 +113,13 @@ li {
   margin: 5px;
   height: 100px;
 }
+.listed{
+  margin-bottom: 50px;
+}
 p {
   color: #696666;
+  font-family: 'Roboto';
+  font-size: 0.9em;
 }
 .lipic{
     flex: 1;
@@ -133,10 +129,13 @@ p {
     border: 2px solid #76323F;
     margin: auto;
 }
+a {
+  font-size: 0.9em;
+}
 a:link, a:active, a:visited{
-  color: inherit;
+  color: #76323F;
   text-decoration: none;
 }
-a:hover{
-  color: #76323F;
+a:hover {
+  color: #125F8B;
 }
