@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300|Slabo+27px');
 html,body {
   height:100%;
   width:100%;
@@ -118,7 +119,7 @@ li {
 }
 p {
   color: #696666;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-size: 0.9em;
 }
 .lipic{
